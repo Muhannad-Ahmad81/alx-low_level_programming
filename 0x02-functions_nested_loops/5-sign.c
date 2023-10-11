@@ -4,7 +4,7 @@
 *@n: assc eer erb
 *slkvlvrvek df pdd
 */
-void int print_sign(int n)
+ int print_sign(int n)
 {
 if (n == 0)
 {
