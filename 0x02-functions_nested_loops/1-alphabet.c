@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*print_alphabet - function that print alphabet
-*it prints in lowercase
-*Return: no return
+*print_alphabet - sjsb jff ff
+*assc eer erb
+*slkvlvrvek df pdd
 */
 void print_alphabet(void)
 {
