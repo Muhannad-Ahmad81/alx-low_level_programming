@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*print_alphabet - sjsb jff ff
+*print_sign - sjsb jff ff
 *@n: assc eer erb
-*slkvlvrvek df pdd
+*Return: slkvlvrvek df pdd
 */
- int print_sign(int n)
+int print_sign(int n)
 {
 if (n == 0)
 {
