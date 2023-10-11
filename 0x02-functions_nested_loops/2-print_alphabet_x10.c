@@ -1,20 +1,26 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - ldkfkknb kfn
- * desc: sdds sdds gnt
- * Return:return 0
+ * print_alphabet_x10 - prints alphabet 10 times
+ * Return:void
  */
+
 void print_alphabet_x10(void)
 {
-	int i;
-	int k;
+	char c;
+	int i = 0;
 
-	for (i = 0 ; i < 10; i++)
+	while (i < 10)
 	{
-		for (k = 'a'; k <= 'z'; k++)
+		c = 'a';
+		while (c <= 'z')
 		{
-			_putchar(k);
+			_putchar(c);
+			c++;
 		}
 		_putchar('\n');
+		i++;
 	}
+
 }
+

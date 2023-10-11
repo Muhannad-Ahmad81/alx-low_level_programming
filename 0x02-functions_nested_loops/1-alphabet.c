@@ -1,15 +1,21 @@
 #include "main.h"
+
 /**
-*print_alphabet - sjsb jff ff
-*assc eer erb
-*slkvlvrvek df pdd
-*/
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
 void print_alphabet(void)
 {
-int letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-_putchar (letter);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
-_putchar ('\n');
-}
+

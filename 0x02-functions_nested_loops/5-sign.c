@@ -1,24 +1,31 @@
 #include "main.h"
+
 /**
-*print_sign - sjsb jff ff
-*@n: assc eer erb
-*Return: slkvlvrvek df pdd
-*/
+ * print_sign - check numers
+ * @n : number to check
+ * Return:0 or 1
+ */
+
 int print_sign(int n)
 {
-if (n == 0)
+int test;
+
+if (n > 0)
 {
-	_putchar('0');
-	return (0);
-}
-else if (n > 0)
-{
+	test = 1;
 	_putchar('+');
-	return (1);
+}
+else if (n == 0)
+{
+	test = 0;
+	_putchar('0');
 }
 else
 {
+	test = -1;
 	_putchar('-');
-	return (-1);
 }
+
+return (test);
 }
+
