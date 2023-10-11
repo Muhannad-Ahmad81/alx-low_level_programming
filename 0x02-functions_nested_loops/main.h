@@ -7,4 +7,4 @@
 
 int _putchar(char);
 void print_alphabet(void);
-int print_sign(int );
+int print_sign(int n);
