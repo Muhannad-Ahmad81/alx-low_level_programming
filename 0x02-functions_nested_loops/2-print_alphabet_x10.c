@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * print_alphabet_x10 - ldkfkknb kfn
  * desc: sdds sdds gnt
