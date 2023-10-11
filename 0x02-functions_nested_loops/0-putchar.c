@@ -7,14 +7,14 @@
 */
 int main(void)
 {
-	char school[10] = "_putchar";
+	char str[] = "_putchar";
 
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(school[i]);
+		_putchar(str[i]);
 	}
-	_putchar(10);
+	_putchar('\n');
 	return (0);
 }
